@@ -103,7 +103,8 @@ footer p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 150px;
+    max-width: 120px; /* Limita o tamanho do card */
+    font-size: 1rem;
 }
 
 .contact-item a {
@@ -116,11 +117,13 @@ footer p {
     color: #2c8c99;
 }
 
+/* Icon Styles */
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 60px; /* Define o tamanho das imagens */
+    height: 60px; /* Mantém a proporção */
     margin-bottom: 0.5rem;
     border-radius: 50%;
+    object-fit: cover; /* Garante que as imagens fiquem dentro do círculo */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
