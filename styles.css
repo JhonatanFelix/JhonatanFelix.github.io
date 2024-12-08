@@ -127,7 +127,7 @@ footer p {
     transition: transform 0.3s ease;
 
     /* Remove o formato circular */
-    border-radius: 5px; /* Bordas ligeiramente arredondadas para um estilo suave */
+    border-radius: 0.5px; /* Bordas ligeiramente arredondadas para um estilo suave */
 }
 
 /* Hover Effect */
